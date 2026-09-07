@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Bethany International Services Inc Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="index.html"><span class="brand-mark">B</span><span><strong>Bethany</strong><small>International Services Inc Foundation</small></span></a>
+  <button class="menu-toggle">☰</button>
+  <nav><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="contact.html">Contact</a></nav>
+</header>
+
+<section class="page-hero">
+  <span class="eyebrow">CONNECT WITH US</span>
+  <h1>Let's start a conversation.</h1>
+  <p>Whether you want to learn more, collaborate or support our work, we'd love to hear from you.</p>
+</section>
+
+<section class="contact-section section">
+  <div class="contact-info">
+    <span class="eyebrow">CONTACT DETAILS</span>
+    <h2>We're here to listen.</h2>
+    <p>Replace the placeholder details below with the organisation's official contact information before publishing.</p>
+    <div class="contact-item"><span>✉</span><div><small>Email</small><strong>info@yourdomain.org</strong></div></div>
+    <div class="contact-item"><span>☎</span><div><small>Phone</small><strong>+254 XXX XXX XXX</strong></div></div>
+    <div class="contact-item"><span>⌖</span><div><small>Location</small><strong>Kenya</strong></div></div>
+  </div>
+
+  <form class="contact-form" onsubmit="sendMessage(event)">
+    <label>Your Name<input type="text" placeholder="Enter your name" required></label>
+    <label>Email Address<input type="email" placeholder="you@example.com" required></label>
+    <label>Subject<input type="text" placeholder="How can we help?" required></label>
+    <label>Message<textarea rows="6" placeholder="Write your message..." required></textarea></label>
+    <button class="btn primary" type="submit">Send Message →</button>
+    <p id="form-message" class="form-message"></p>
+  </form>
+</section>
+
+<section class="map-placeholder">
+  <div><span class="eyebrow">KENYA</span><h2>Serving from Kenya, reaching beyond.</h2><p>Embed Google Maps here once the official office address is confirmed.</p></div>
+</section>
+
+<footer>
+  <div><strong>BETHANY</strong><p>International Services Inc Foundation - Kenya</p></div>
+  <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+  <p class="copyright">© 2026 Bethany International Services Inc Foundation - Kenya. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
